@@ -1,0 +1,19 @@
+{
+    "name": "scankeys",
+    "version": "1.0.0",
+    "description": "Scan Redis key for EmailEngine",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Andris Reinman",
+    "license": "MIT",
+    "dependencies": {
+        "ioredis": "4.27.8",
+        "wild-config": "1.5.1"
+    },
+    "bin": {
+        "scankeys": "bin/scankeys.js"
+    }
+}
